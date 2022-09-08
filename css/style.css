@@ -40,6 +40,24 @@ stats{
 }
 
 .btn-slide svg{
-    height: 25px;
+    height:25px;
     width:25px;
+}
+
+@media only screen and (max-width:992px){
+    .side-nav{
+        position:fixed;
+        left:-260px;
+        width:260px;
+    }
+
+    .main-content{
+        margin-left:0px;
+    }
+
+
+}
+
+.slide{
+    left:0px;
 }
